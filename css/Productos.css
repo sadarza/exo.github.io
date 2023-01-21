@@ -1,0 +1,185 @@
+*
+{
+    font-family: 'Patrick Hand', cursive;
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #f6eddc;
+}
+
+header
+{
+    text-align: center;
+}
+
+header div
+{
+    text-align: center;
+    width: 100%;
+    height: 6em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: #13444d;
+}
+
+header img
+{
+    width: 15em;
+}
+
+.Barra_bus
+{
+    width: 100%;
+    height: 5em;
+    text-align: center;
+    background-color: #000706;
+}
+
+.Barra_bus ul li div p
+{
+    margin: 0.4em;
+    font-size: 2.5em;
+    font-family: 'Patrick Hand', cursive;
+    transition: all 200ms;
+}
+
+.Barra_bus ul li div p:hover
+{
+    transform: scale(1.2) rotate(2deg);
+    text-decoration: underline #f8572d;
+}
+
+.Barra_bus ul li a
+{
+    color: #ffffff;
+}
+
+.Barra_bus ul li
+{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    display: inline-block;
+}
+
+
+
+
+/*Bodyyyyyy*/
+
+
+.Caja1
+{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 8em;
+    width: 80em;
+}
+
+.Caja1 h1
+{
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 4em;
+    margin-top: 1em;
+}
+
+.Caja1 h2
+{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.Caja1 img
+{
+    width: 70em;
+    margin-bottom: 1em;
+}
+
+.Caja1 a
+{
+    color: #ffffff;
+}
+
+.Caja1 div
+{
+    margin: 0 auto;
+    width: 25em;
+    height: 5em;
+    background-color: #3a828e;
+    border-radius: 20%;
+    transition: all 200ms;
+    margin-bottom: 5em;
+}
+
+.Caja1 div p
+{
+    font-size: 3.5em;
+}
+
+.Caja1 div:hover
+{
+    background-color: #59c8db;
+    transform: scale(1.2);
+}
+
+
+
+/*Footer*/
+
+@font-face {
+    font-family: SocialMedia;
+    src: url(/fonts/Social\ Media\ Circled.otf);
+}
+
+
+footer
+{
+    text-align: center;
+}
+
+footer div
+{
+    width: 100%;
+    height: 12em;
+    text-align: center;
+    background-color: #00272d;
+}
+
+footer h3
+{
+    font-size: 2em;
+    padding-top: 1.2em;
+    font-family: 'Patrick Hand', cursive;
+    color: #bfac8b;
+    text-decoration: underline;
+}
+
+footer a
+{
+    color: #bfac8b;
+}
+
+footer li
+{
+    display: inline-block;
+    margin: 0 0.3em;
+}
+
+footer p
+{
+    font-family: SocialMedia;
+    font-size: 3.5em;
+    padding-top: 0.2em;
+    transition: all 100ms;
+}
+
+footer p:hover
+{
+    color: #ffffff;
+}
